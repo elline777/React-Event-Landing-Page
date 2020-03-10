@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
+import MyButton from '../ui/MyButton';
 
 class Discount extends Component {
   state = {
@@ -42,7 +43,12 @@ class Discount extends Component {
                 речью деревни большого имеет маленький мир свой возвращайся
                 путь, коварный текст вдали реторический курсивных пунктуация!
               </p>
-              <div>button</div>
+              <MyButton
+                text="Заказать билеты"
+                bck="#ffa800"
+                color="#fff"
+                link="http://google.com"
+              />
             </div>
           </Slide>
         </div>
